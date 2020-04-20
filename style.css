@@ -1,0 +1,55 @@
+.header
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(29, 29, 87);
+    display: flex;
+    align-items: center;
+}
+
+.header div
+{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+}
+
+.country-selector
+{
+    text-align: center;
+}
+.country-selector select
+{
+    width: 50%;
+    border: none;
+    border-bottom:1px solid black ;
+}
+ select:hover
+{
+    background: rgb(36, 33, 33);
+    color: white;
+    
+}
+.chart-container
+{
+    margin:100px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+}
+.chart-container:hover
+{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.btn-container
+{
+    text-align: center;
+}
+
+#footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(29, 29, 87);
+}
